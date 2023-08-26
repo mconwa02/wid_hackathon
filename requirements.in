@@ -2,6 +2,7 @@ black==23.7.0
 flake8==6.1.0
 isort==5.12.0
 mkdocs==1.5.2
+mkdocs-material
 mypy==1.5.1
 numpy==1.25.2
 pandas==2.0.3

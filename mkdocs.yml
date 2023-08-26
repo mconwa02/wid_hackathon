@@ -2,19 +2,18 @@ site_name: WiD Hackathon
 nav:
 - Home: index.md
 - About: about.md
-#theme: readthedocs
-
-extra_css: [extra.css]
-#
-#theme:
-#  name: mkdocs
-#  highlightjs: true
-#  hljs_languages:
-#    - yaml
-#    - rust
-
 theme:
-  name: mkdocs
-  nav_style: dark
-  analytics:
-    gtag: G-ABC123
+  name: material
+  logo: img/wid-logo.png
+  favicon: 'img/wid-logo.ico'
+  palette:
+#    scheme: youtube
+#    scheme: slate
+    primary: pink
+    accent: red
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+extra_css:
+  - stylesheets/extra.css
