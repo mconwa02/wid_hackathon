@@ -1,0 +1,20 @@
+site_name: WiD Hackathon
+nav:
+- Home: index.md
+- About: about.md
+#theme: readthedocs
+
+extra_css: [extra.css]
+#
+#theme:
+#  name: mkdocs
+#  highlightjs: true
+#  hljs_languages:
+#    - yaml
+#    - rust
+
+theme:
+  name: mkdocs
+  nav_style: dark
+  analytics:
+    gtag: G-ABC123
