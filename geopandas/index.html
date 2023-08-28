@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../about/">
+        <link rel="prev" href="..">
       
       
         <link rel="next" href="../kaggle_data/">
@@ -198,7 +198,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -217,11 +217,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    About
+    MkDocs
   </span>
   
 
@@ -269,7 +269,7 @@
         
   
   <span class="md-ellipsis">
-    Data
+    Kaggle Data
   </span>
   
 
@@ -317,7 +317,7 @@
 Before we start, make sure you have Geopandas installed. Geopandas relies on other geospatial libraries, such as Fiona, Shapely, and PyProj. You can install Geopandas along with these dependencies using conda or pip:</p>
 <pre><code class="language-bash">pip install geopandas
 </code></pre>
-<p><strong>2. Importing Geospatial Data:</strong>*
+<p><strong>2. Importing Geospatial Data:</strong>
 Let's start by importing a shapefile containing geospatial data. We'll use a shapefile that contains the boundaries of countries:</p>
 <pre><code class="language-python">import geopandas as gpd
 # Load the shapefile
@@ -346,15 +346,6 @@ points_with_countries = gpd.sjoin(points, world_map, how='left', op='within')
 # Display the first few rows of the result
 print(points_with_countries.head())
 </code></pre>
-<p><strong>Challenging Exercises:</strong></p>
-<ol>
-<li>Load a shapefile containing the boundaries of states or provinces and perform a spatial join with a dataset of cities to determine which city belongs to which state/province.</li>
-<li>Visualize the distribution of a specific attribute (e.g., population, GDP) in the world map using a choropleth map.</li>
-<li>Load a shapefile containing the boundaries of administrative regions (e.g., counties or municipalities) and create a plot showing the density of a specific attribute (e.g., population density) using a kernel density estimation (KDE) plot.</li>
-<li>Use Geopandas to calculate the distance between two points given their latitude and longitude coordinates.</li>
-<li>Load any other geospatial dataset of your choice (e.g., environmental data, transportation networks) and perform exploratory analysis to identify interesting patterns or relationships.</li>
-<li>As you progress, explore more advanced geospatial analysis techniques, such as spatial overlays, raster data processing, and geospatial visualization using interactive maps with Folium. Geopandas offers a wide range of capabilities for geospatial data analysis, making it a valuable tool for data scientists working with geographic information. Happy geospatial data exploration!</li>
-</ol>
 
 
 
