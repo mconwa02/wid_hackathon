@@ -1,9 +1,9 @@
 site_name: WiD Hackathon
 nav:
-- Home: index.md
-- About: about.md
+- Home: about.md
+- MkDocs: index.md
 - Geopandas: geopandas.md
-- Data: kaggle_data.md
+- Kaggle Data: kaggle_data.md
 theme:
   name: material
   logo: img/wid-logo.png

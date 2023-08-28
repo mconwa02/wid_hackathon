@@ -1,7 +1,6 @@
-<html>
-<head><title>301 Moved Permanently</title></head>
-<body bgcolor="white">
-<center><h1>301 Moved Permanently</h1></center>
-<hr><center>nginx/1.14.2</center>
-</body>
-</html>
+# Health's Health Steer-co 
+
+Working website to code and solve problem for women's health using 
+kaggle and NHS data
+
+In partnership with Women in Data, UK, non-profit
