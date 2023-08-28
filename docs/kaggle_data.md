@@ -4,15 +4,12 @@
 
 [Kaggle Women Health Care](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
 
-## Fetal Health Classification
-Classify the health of a fetus as Normal, Suspect or Pathological using CTG data
+### Fetal Health Classification
 
-About Dataset
-Abstract
-Classify fetal health in order to prevent child and maternal mortality.
+Classify fetal health in order to prevent child and maternal mortality. 
+Each fetal is classified as health of a fetus as Normal, Suspect or Pathological using CTG data
 
 ### About this dataset
-Context
 Reduction of child mortality is reflected in several of the United Nations' Sustainable Development Goals and is a key indicator of human progress.
 The UN expects that by 2030, countries end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce under‑5 mortality to at least as low as 25 per 1,000 live births.
 
@@ -20,7 +17,6 @@ Parallel to notion of child mortality is of course maternal mortality, which acc
 
 In light of what was mentioned above, Cardiotocograms (CTGs) are a simple and cost accessible option to assess fetal health, allowing healthcare professionals to take action in order to prevent child and maternal mortality. The equipment itself works by sending ultrasound pulses and reading its response, thus shedding light on fetal heart rate (FHR), fetal movements, uterine contractions and more.
 
-### Data
 This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetritians into 3 classes:
 
 - Normal
@@ -30,7 +26,7 @@ This dataset contains 2126 records of features extracted from Cardiotocogram exa
 ### How to use
 Create a multiclass model to classify CTG features into the three fetal health states.
 
-### Well-being of Women in 52 Countries
+## Well-being of Women in 52 Countries
 
 [Kaggle Well-being of Women in 52 Countries](https://www.kaggle.com/datasets/konradb/wellbeing-of-women-in-52-countries)
 
