@@ -1,0 +1,20 @@
+site_name: WiD Hackathon
+nav:
+- Home: index.md
+- About: about.md
+- Geopandas: geopandas.md
+- Data: kaggle_data.md
+theme:
+  name: material
+  logo: img/wid-logo.png
+  favicon: 'img/wid-logo.ico'
+  palette:
+#    scheme: youtube
+    primary: pink
+    accent: red
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+extra_css:
+  - stylesheets/extra.css
