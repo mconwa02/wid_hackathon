@@ -1,16 +1,14 @@
-# Kaggle Data
+# Kaggle Data Set
+Datasets on Kaggle's website relating to women's health
 
 ## Women Health Care
 
 [Kaggle Women Health Care](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification)
 
-### Fetal Health Classification
-
-Classify fetal health in order to prevent child and maternal mortality. 
+Fetal Health Classification, classify fetal health in order to prevent child and maternal mortality. 
 Each fetal is classified as health of a fetus as Normal, Suspect or Pathological using CTG data
 
-### About this dataset
-Reduction of child mortality is reflected in several of the United Nations' Sustainable Development Goals and is a key indicator of human progress.
+About this dataset, reduction of child mortality is reflected in several of the United Nations' Sustainable Development Goals and is a key indicator of human progress.
 The UN expects that by 2030, countries end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce under‑5 mortality to at least as low as 25 per 1,000 live births.
 
 Parallel to notion of child mortality is of course maternal mortality, which accounts for 295 000 deaths during and following pregnancy and childbirth (as of 2017). The vast majority of these deaths (94%) occurred in low-resource settings, and most could have been prevented.
@@ -91,24 +89,26 @@ The uncontrolled cancer cells often invade other healthly breast tissue and can 
 
 The data comes from the UCI repository. The data set contains information about breast cancer patients. The variable that we are trying to predict is whether there will be recurrence or not. These are the variables in the data set:
 
-Class: no-recurrence-events, recurrence-events
-age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.
-menopause: lt40, ge40, premeno.
-tumor-size: 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59.
-inv-nodes: 0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 30-32, 33-35, 36-39.
-node-caps: yes, no.
-deg-malig: 1, 2, 3.
-breast: left, right.
-breast-quad: left-up, left-low, right-up, right-low, central.
-irradiat: yes, no.
+- Class: no-recurrence-events, recurrence-events
+- age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.
+- menopause: lt40, ge40, premeno.
+- tumor-size: 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 
+  45-49, 50-54, 55-59.
+- inv-nodes: 0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 
+  30-32, 33-35, 36-39.
+- node-caps: yes, no.
+- deg-malig: 1, 2, 3.
+- breast: left, right.
+- breast-quad: left-up, left-low, right-up, right-low, central.
+- irradiat: yes, no.
 
-# Fitbit Tracker 
+## Fitbit Tracker 
 
 [Kaggle Fitbit Tracker](https://www.kaggle.com/datasets/adefatima/file-path)
 
 This data set monitors the health of women through various activities.
 
-# Cervical Cancer Dataset
+## Cervical Cancer Dataset
 
 [Kaggle Cervical Cancer Dataset](https://www.kaggle.com/datasets/ranzeet013/cervical-cancer-dataset)
 

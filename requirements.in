@@ -1,6 +1,10 @@
 black==23.7.0
 flake8==6.1.0
+geopandas
+geodatasets
 isort==5.12.0
+ipykernel
+matplotlib
 mkdocs==1.5.2
 mkdocs-material
 mypy==1.5.1
