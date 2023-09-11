@@ -1,18 +1,21 @@
-# Women's Health Steer-co 
+# Women's Health Steer-co
 
 Working website to code and solve problem for women's health using kaggle and NHS data
 
 In partnership with Women in Data, UK, non-profit
 
+![wid-logo.png](img%2Fwid-logo.png)
+
 **Hackathon Name:** [Choose a creative and catchy name for your hackathon]
 
 **Date and Time:**
-- Start Date: Wednesday March 10
-- End Date: Thursday March 9
-- Duration: 12 hours [Specify the duration, e.g., 24 hours, 48 hours]
+- Start Date: 9am Wednesday, March 6th 2024 
+- End Date: 5pm Wednesday, March 6th 2024 
+- Duration: 8 hours
+- Results: Thursday, March 7th 2024
 
 **Venue:**
-- an in-person event
+- in-person event
 - InterContinental London - the O2
 
 **Theme:**
@@ -31,12 +34,24 @@ In partnership with Women in Data, UK, non-profit
 - [Invite sponsors to support the event and provide resources]
 
 **Agenda:**
-- Opening Ceremony
+- Registration 8am
+- Opening Ceremony 9am 
 - Team Formation (if applicable)
+  - Teams of 10 people 
+  - 3,000 people for flagship conference, 300 teams max
+  - 5 data roles for people to select when signing up to conference 
+    - Data Analysts
+    - Data Scientist
+    - Data Engineers
+    - Data SMEs
+    - Data Product Owners
 - Hacking Period
-- Project Submission Deadline
+  - 9am to 5pm 
+  - Lunchtime checkpoint for help and support 
+- Project Submission Deadline 5pm
 - Judging Period
-- Keynote Speech and Prize Distribution
+  - Top 6 finalist presentations 5pm to 6:30pm
+- Keynote Speech and Prize Distribution on the day of flagship conference 
 
 **Rules and Guidelines:**
 - [Specify the rules for participation, code of conduct, and project submission]
