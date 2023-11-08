@@ -1,0 +1,546 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../kaggle_data/">
+      
+      
+        <link rel="next" href="../geopandas/">
+      
+      
+      <link rel="icon" href="../img/wid-logo.ico">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.4">
+    
+    
+      
+        <title>NHS - WiD Hackathon</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0e669242.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="red">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#community-prescribing-dispensing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="WiD Hackathon" class="md-header__button md-logo" aria-label="WiD Hackathon" data-md-component="logo">
+      
+  <img src="../img/wid-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            WiD Hackathon
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NHS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="WiD Hackathon" class="md-nav__button md-logo" aria-label="WiD Hackathon" data-md-component="logo">
+      
+  <img src="../img/wid-logo.png" alt="logo">
+
+    </a>
+    WiD Hackathon
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kaggle_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Kaggle Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    NHS
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    NHS
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-prescription-cost-analysis-pca-annual-statistics" class="md-nav__link">
+    1. Prescription Cost Analysis (PCA) Annual Statistics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-prescription-cost-analysis-pca-monthly-administrative-data" class="md-nav__link">
+    2. Prescription Cost Analysis (PCA) Monthly Administrative Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-english-prescribing-dataset-epd" class="md-nav__link">
+    3. English Prescribing Dataset (EPD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-hospital-prescribing-dispensed-in-the-community" class="md-nav__link">
+    4. Hospital Prescribing Dispensed in the Community
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-and-resources" class="md-nav__link">
+    Data and Resources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geopandas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Geopandas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-prescription-cost-analysis-pca-annual-statistics" class="md-nav__link">
+    1. Prescription Cost Analysis (PCA) Annual Statistics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-prescription-cost-analysis-pca-monthly-administrative-data" class="md-nav__link">
+    2. Prescription Cost Analysis (PCA) Monthly Administrative Data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-english-prescribing-dataset-epd" class="md-nav__link">
+    3. English Prescribing Dataset (EPD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-hospital-prescribing-dispensed-in-the-community" class="md-nav__link">
+    4. Hospital Prescribing Dispensed in the Community
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-and-resources" class="md-nav__link">
+    Data and Resources
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<p>Following discussions at Health SteerCo about the hackathon
+event in March, below the link to the 
+open source datasets relating to prescription data.</p>
+<p>useful in answering some health questions in relation 
+to things like self-prescribing pain relief by gender and
+looking at where the data is highlighting issues with access to 
+proper advice and GP prescribing for menopause etc.</p>
+<p>https://opendata.nhsbsa.net/theme/community_prescribing_dispensing</p>
+<p>The next link takes you to the landing page for all the 
+open access datasets on the NHSBA portal
+in case there is something there that could be helpful.
+https://opendata.nhsbsa.net/</p>
+<p>It may be that a question could be devised for the hackers
+that combines use of the datasets above and some 
+commercial/retail data, such as via the basket analysis project</p>
+<h1 id="community-prescribing-dispensing">Community Prescribing &amp; Dispensing</h1>
+<p>Datasets on the prescribing and dispensing of medicines in the community.</p>
+<h2 id="1-prescription-cost-analysis-pca-annual-statistics">1. Prescription Cost Analysis (PCA) Annual Statistics</h2>
+<p>The PCA release is an Official Statistic with National Statistic designation.
+The lowest granularity of data in the publication for both financial and 
+calendar year is added here. PCA contains information on all prescription 
+items dispensed in England and submitted to the NHSBSA for reimbursement.</p>
+<p>The full statistical release, including more information on what the 
+statistics contain, can be found on our website and you can specifically 
+read the Prescription Cost Analysis Background Information and Methodology 
+to understand more about the data.</p>
+<h2 id="2-prescription-cost-analysis-pca-monthly-administrative-data">2. Prescription Cost Analysis (PCA) Monthly Administrative Data</h2>
+<p>PCA contains information on all prescriptions items dispensed in the community 
+in England on a monthly basis and submitted to the NHSBSA for reimbursement.</p>
+<p>This data mirrors the methodology used in the PCA Annual National Statistics
+publication. The latest statistical release, along with more information on 
+what PCA contains, can be found on the NHSBSA website and you can specifically 
+read the Prescription Cost Analysis Background Information and Methodology.
+The monthly PCA release is a monthly management information data set and is not
+an Official Statistic.</p>
+<p>Data for February 2008 to March 2021 is available on the <a href="https://www.nhsbsa.nhs.uk/prescription-data/dispensing-data/prescription-cost-analysis-pca-data">NHSBSA website</a> in a
+legacy format.</p>
+<p>Data and Resources</p>
+<p><a href="https://opendata.nhsbsa.net/dataset/prescription-cost-analysis-pca-monthly-data/resource/b5a5c071-740d-46f1-9249-21faf39daa31">Prescription Cost Analysis (PCA) - Aug 2023</a>
+<a href="https://opendata.nhsbsa.net/dataset/prescription-cost-analysis-pca-monthly-data/resource/668f9717-f824-4032-922d-61c6e9f65e73">Prescription Cost Analysis (PCA) - Jul 2023</a>
+<a href="https://opendata.nhsbsa.net/dataset/prescription-cost-analysis-pca-monthly-data/resource/88860781-558b-4817-9ed9-74a8bd140282">Prescription Cost Analysis (PCA) - Jun 2023</a></p>
+<h2 id="3-english-prescribing-dataset-epd">3. English Prescribing Dataset (EPD)</h2>
+<p>This dataset contains information on prescriptions issued in England that 
+have been dispensed in England, Wales, Scotland, Guernsey, Alderney, 
+Jersey, and the Isle of Man.</p>
+<p>The dataset combines elements of the Detailed Prescribing Information (DPI)
+data previously released by NHS Business Services Authority (NHSBSA) via 
+the Information Services Portal, and the Practice Level Prescribing in 
+England (PLP) data released by NHS Digital via their website. It is 
+intended to replace both of those sources.</p>
+<p>These datasets have been brought together to provide end users with a 
+single comprehensive, consistent and accessible source of prescribing information.</p>
+<h2 id="4-hospital-prescribing-dispensed-in-the-community">4. Hospital Prescribing Dispensed in the Community</h2>
+<p>We have worked with NHS Improvement (now NHS England) to produce a dataset on
+prescribing in a hospital setting which has been dispensed in the community.</p>
+<p>The data is related to items prescribed and dispensed in England. The data only
+includes items prescribed by NHS Hospital Trust Units which have been dispensed
+in the community. Cost Centre data is not included in this dataset.</p>
+<p>The data provided is based on England Hospital Trust prescribing only and may 
+include items prescribed in England but dispensed in Wales, Scotland, Northern
+Ireland, Guernsey, Jersey, Alderney and the Isle of Man.</p>
+<p>The dataset excludes:</p>
+<ul>
+<li>
+<p>Items not dispensed, disallowed and those returned to the contractor for 
+further clarification.</p>
+</li>
+<li>
+<p>Prescriptions prescribed and dispensed in Prisons, Hospitals and Private 
+  prescriptions.</p>
+</li>
+<li>
+<p>Items prescribed but not presented for dispensing or not submitted to NHS 
+  Prescription Services by the dispenser</p>
+</li>
+</ul>
+<h2 id="data-and-resources">Data and Resources</h2>
+<p><a href="https://opendata.nhsbsa.net/dataset/hospital-prescribing-dispensed-in-the-community/resource/467d12a4-a652-44e9-a67e-59556adec51b">Hospital prescribing dispensed in community - August 2023</a>
+<a href="https://opendata.nhsbsa.net/dataset/hospital-prescribing-dispensed-in-the-community/resource/fe1d564b-ef64-4dec-9f3a-509c9f382d6f">Hospital prescribing dispensed in community - July 2023</a>
+<a href="https://opendata.nhsbsa.net/dataset/hospital-prescribing-dispensed-in-the-community/resource/5242f116-9072-4221-99f4-796e0770b568">Hospital prescribing dispensed in community - June 2023</a></p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+    
+  </body>
+</html>
