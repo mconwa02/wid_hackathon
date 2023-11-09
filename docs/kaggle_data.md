@@ -141,3 +141,9 @@ The top three – breast, colorectal and lung cancers – contributed 44.5% of a
 (excluding non-melanoma skin cancer).
 Cervical cancer was the fourth most common cancer in women, contributing 6.9% of the
 total number of new cases diagnosed in 2020.
+
+
+## UK NHS Hospital Database
+Includes Geospatial Data
+
+This dataset is the complete UK NHS (National Health Service) Hospital Database including geospatial data.
