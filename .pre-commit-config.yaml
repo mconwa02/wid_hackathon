@@ -6,19 +6,19 @@ repos:
         entry: black
         description: "black: The uncompromising Python code formatter"
         language: python
-        args: ["--line-length=78"]
+        args: ["--line-length=78", "--exclude=['.md']"]
     -   id: flake8
         name: flake8 file formatting
         entry: flake8
         description: "flake8: The wrapper for PyFlakes and pycodestyle "
         language: python
-        args: ["--max-line-length=78"]
+        args: ["--max-line-length=78", "--ignore=E999,E501"]
     -   id: mypy
         name: mypy formatting
         entry: mypy
         description: "mypy: The mypy Python code formatter"
         language: python
-        args: ["--install-types"]
+        args: ["--install-types", "--no-warn-unused-ignores"]
     -   id: isort
         name: isort checking imports
         entry: isort

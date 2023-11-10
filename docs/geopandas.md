@@ -1,43 +1,71 @@
 # Geopandas using Python for Data Scientists
-Geopandas is a powerful Python library for working with geospatial data, allowing data scientists to manipulate, analyze, and visualize geographic information. In this comprehensive training program, you will learn the fundamentals of Geopandas and how to perform various geospatial data analysis tasks.
+Geopandas is a powerful Python library for working with geospatial data, 
+allowing data scientists to manipulate, analyze, and visualize geographic 
+information. In this comprehensive training program, you will learn the 
+fundamentals of Geopandas and how to perform various geospatial data 
+analysis tasks.
 
-**1. Installing Geopandas**:
-Before we start, make sure you have Geopandas installed. Geopandas relies on other geospatial libraries, such as Fiona, Shapely, and PyProj. You can install Geopandas along with these dependencies using conda or pip:
+1. **Installing Geopandas**:
+Before we start, make sure you have Geopandas installed. Geopandas relies 
+on other geospatial libraries, such as Fiona, Shapely, and PyProj. You can 
+install Geopandas along with these dependencies using pip:
 
 ```bash 
 pip install geopandas
 ```
-**2. Importing Geospatial Data:**
-Let's start by importing a shapefile containing geospatial data. We'll use a shapefile that contains the boundaries of countries:
+
+To generate a GeoPandas plot of the UK, you'll need a shapefile of the United 
+Kingdom to display data and visualise it.
+
+2. **Downloading Shapefile Data:**
+
+You can download shapefile data for the UK from various sources. A 
+commonly used source is Natural Earth, which provides free vector and 
+raster map data. Here's a step-by-step guide:
+
+   - Go to [Natural Earth](https://www.naturalearthdata.com/).
+   - Under Downloads, select "Cultural Vectors."
+   - Choose the desired scale and download the shapefiles.
+   
+3. **Python Code for Plotting with GeoPandas:**
+
+Once you've downloaded the shapefile, here's an example of how you could 
+plot it using GeoPandas:
+
 ```python
 import geopandas as gpd
-# Load the shapefile
-world_map = gpd.read_file('world_map.shp')
-# Display the first few rows of the data
-print(world_map.head())
-```
+import matplotlib.pyplot as plt
 
-**3. Basic Geospatial Operations:**
-Geopandas allows you to perform various geospatial operations, such as plotting the data, calculating areas, and filtering based on spatial attributes:
-```python
-# Plot the world map
-world_map.plot()
-plt.title('World Map')
+# Load the shapefile data using GeoPandas
+file_path = 'path_to_your_downloaded_shapefile.shp'  # Replace with your file path
+gdf = gpd.read_file(file_path)
+
+# Plot the map
+fig, ax = plt.subplots(figsize=(10, 10))
+gdf.plot(ax=ax)
+plt.title('Map of the UK')
+plt.axis('off')  # Turn off the axis
 plt.show()
-# Calculate the area of each country
-world_map['area_sqkm'] = world_map.geometry.area
-# Filter countries with an area greater than 2 million square kilometers
-large_countries = world_map[world_map['area_sqkm'] > 2_000_000]
-print(large_countries)
 ```
 
-**4. Spatial Joins:**
-Spatial joins allow you to combine geospatial data based on their spatial relationships. Let's perform a spatial join to associate points with the corresponding countries:
-```python
-# Load a points shape
-filepoints = gpd.read_file('points.shp')
-# Perform a spatial join to get the points associated with the countries
-points_with_countries = gpd.sjoin(points, world_map, how='left', op='within')
-# Display the first few rows of the result
-print(points_with_countries.head())
-```
+Replace `'path_to_your_downloaded_shapefile.shp'` with the actual file 
+path where you've saved the downloaded shapefile. This code reads the 
+shapefile using GeoPandas and plots it using Matplotlib.
+
+Keep in mind that the file path should point to the specific location 
+where you saved the shapefile on your system. This code will create a plot 
+of the UK using the shapefile's geographical boundaries.
+
+Feel free to modify the plot according to your preferences, such as 
+adjusting colors, adding labels, or customizing the plot appearance.
+
+The Shapefile format is much more compact than GeoJSON, and is supported 
+by GeoPandas, (Plotly requires GeoJSON, which I created from the Shapefiles later.)
+
+UK portal of sharp files
+https://geoportal.statistics.gov.uk/
+
+Download Options of Wards (May 2023) Boundaries UK BFC
+https://geoportal.statistics.gov.uk/datasets/ons::wards-may-2023-boundaries-uk-bfc/explore
+
+https://www.data.gov.uk/dataset/32bc926b-e438-4e12-b7b5-b0a720c223e2/census-merged-wards-december-2011-full-extent-boundaries-in-england-and-wales
