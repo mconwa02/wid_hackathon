@@ -19,6 +19,9 @@ Kingdom to display data and visualise it.
 
 2. **Downloading Shapefile Data:**
 
+Shapefile is a geospatial vector data format for geographic information 
+system (GIS) software. It is developed and regulated by Esri.
+
 You can download shapefile data for the UK from various sources. A 
 commonly used source is Natural Earth, which provides free vector and 
 raster map data. Here's a step-by-step guide:
@@ -47,6 +50,12 @@ plt.title('Map of the UK')
 plt.axis('off')  # Turn off the axis
 plt.show()
 ```
+
+![map_of_the_uk.png](img%2Fmap_of_the_uk.png)
+
+![map_of_the_world.png](img%2Fmap_of_the_world.png)
+
+
 
 Replace `'path_to_your_downloaded_shapefile.shp'` with the actual file 
 path where you've saved the downloaded shapefile. This code reads the 
