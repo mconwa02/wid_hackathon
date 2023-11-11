@@ -1,19 +1,13 @@
 
-Following discussions at Health SteerCo about the hackathon
-event in March, below the link to the 
-open source datasets relating to prescription data.
-
-useful in answering some health questions in relation 
-to things like self-prescribing pain relief by gender and
-looking at where the data is highlighting issues with access to 
-proper advice and GP prescribing for menopause etc.
+Following discussions at Health SteerCo about the hackathon event in March,
+below the link to the open source datasets relating to prescription data. 
+It's useful for health questions in relation to things like 
+self-prescribing pain relief by gender and looking at where the data is 
+highlighting issues with access to proper advice and GP prescribing for menopause etc.
  
-https://opendata.nhsbsa.net/theme/community_prescribing_dispensing
+[open data nhs](https://opendata.nhsbsa.net/theme/community_prescribing_dispensing)
 
-The next link takes you to the landing page for all the 
-open access datasets on the NHSBA portal
-in case there is something there that could be helpful.
-https://opendata.nhsbsa.net/
+Landing page for all the open access datasets on the [NHSBA portal](https://opendata.nhsbsa.net/)
  
 It may be that a question could be devised for the hackers
 that combines use of the datasets above and some 
@@ -51,7 +45,9 @@ legacy format.
 Data and Resources
 
 [Prescription Cost Analysis (PCA) - Aug 2023](https://opendata.nhsbsa.net/dataset/prescription-cost-analysis-pca-monthly-data/resource/b5a5c071-740d-46f1-9249-21faf39daa31)
+
 [Prescription Cost Analysis (PCA) - Jul 2023](https://opendata.nhsbsa.net/dataset/prescription-cost-analysis-pca-monthly-data/resource/668f9717-f824-4032-922d-61c6e9f65e73)
+
 [Prescription Cost Analysis (PCA) - Jun 2023](https://opendata.nhsbsa.net/dataset/prescription-cost-analysis-pca-monthly-data/resource/88860781-558b-4817-9ed9-74a8bd140282)
 
 ## 3. English Prescribing Dataset (EPD)
@@ -92,6 +88,9 @@ further clarification.
   Prescription Services by the dispenser
 
 ## Data and Resources
+
 [Hospital prescribing dispensed in community - August 2023](https://opendata.nhsbsa.net/dataset/hospital-prescribing-dispensed-in-the-community/resource/467d12a4-a652-44e9-a67e-59556adec51b)
+
 [Hospital prescribing dispensed in community - July 2023](https://opendata.nhsbsa.net/dataset/hospital-prescribing-dispensed-in-the-community/resource/fe1d564b-ef64-4dec-9f3a-509c9f382d6f)
+
 [Hospital prescribing dispensed in community - June 2023](https://opendata.nhsbsa.net/dataset/hospital-prescribing-dispensed-in-the-community/resource/5242f116-9072-4221-99f4-796e0770b568)

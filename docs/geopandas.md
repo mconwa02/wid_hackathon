@@ -62,10 +62,8 @@ adjusting colors, adding labels, or customizing the plot appearance.
 The Shapefile format is much more compact than GeoJSON, and is supported 
 by GeoPandas, (Plotly requires GeoJSON, which I created from the Shapefiles later.)
 
-UK portal of sharp files
-https://geoportal.statistics.gov.uk/
+[UK portal of sharp files](https://geoportal.statistics.gov.uk/)
 
-Download Options of Wards (May 2023) Boundaries UK BFC
-https://geoportal.statistics.gov.uk/datasets/ons::wards-may-2023-boundaries-uk-bfc/explore
+Download Options of Wards (May 2023) [Boundaries UK BFC](https://geoportal.statistics.gov.uk/datasets/ons::wards-may-2023-boundaries-uk-bfc/explore)
 
-https://www.data.gov.uk/dataset/32bc926b-e438-4e12-b7b5-b0a720c223e2/census-merged-wards-december-2011-full-extent-boundaries-in-england-and-wales
+[Interactive Mapping in Python with UK Census Data](https://medium.com/@patohara60/interactive-mapping-in-python-with-uk-census-data-6e571c60ff4)

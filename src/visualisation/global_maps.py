@@ -29,8 +29,9 @@ def plot_geopandas_map(gdf, title):
     plt.show()
 
 
-uk_gdf = read_uk_map()
-world_gdf = read_world_map()
+if __name__ == "__main__":
+    uk_gdf = read_uk_map()
+    world_gdf = read_world_map()
 
-plot_geopandas_map(uk_gdf, "Map of the UK")
-plot_geopandas_map(world_gdf, "Map of the World")
+    plot_geopandas_map(uk_gdf, "Map of the UK")
+    plot_geopandas_map(world_gdf, "Map of the World")
