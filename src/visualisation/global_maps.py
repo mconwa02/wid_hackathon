@@ -23,7 +23,7 @@ def read_world_map():
 
 def plot_geopandas_map(gdf, title):
     fig, ax = plt.subplots(figsize=(10, 10))
-    gdf.plot(ax=ax)
+    gdf.plot(ax=ax, color="grey")
     plt.title(title)
     plt.axis("off")
     plt.show()
