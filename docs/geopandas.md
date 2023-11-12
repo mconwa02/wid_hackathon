@@ -5,15 +5,14 @@ information. In this comprehensive training program, you will learn the
 fundamentals of Geopandas and how to perform various geospatial data 
 analysis tasks.
 
-1. **Installing Geopandas**:
+1.  **Installing Geopandas:**
+
 Before we start, make sure you have Geopandas installed. Geopandas relies 
 on other geospatial libraries, such as Fiona, Shapely, and PyProj. You can 
 install Geopandas along with these dependencies using pip:
-
 ```bash 
 pip install geopandas
 ```
-
 To generate a GeoPandas plot of the UK, you'll need a shapefile of the United 
 Kingdom to display data and visualise it.
 
@@ -51,10 +50,9 @@ plt.axis('off')  # Turn off the axis
 plt.show()
 ```
 
-![map_of_the_uk.png](img%2Fmap_of_the_uk.png)
+![map_of_the_uk.png](img/map_of_the_uk.png)
 
-![map_of_the_world.png](img%2Fmap_of_the_world.png)
-
+![map_of_the_world.png](img/map_of_the_world.png)
 
 
 Replace `'path_to_your_downloaded_shapefile.shp'` with the actual file 

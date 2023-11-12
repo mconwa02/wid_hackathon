@@ -32,13 +32,12 @@ def main():
     world = read_world_map()
 
     fig, ax = plt.subplots(figsize=(10, 10))
-    # world.clip([-10, 45, 5, 70]).plot(ax=ax, color="grey")
     world.clip([-6, 48, 2, 65]).plot(ax=ax, color="grey")
-    gdf.plot(ax=ax, color="blue")
+    gdf.plot(ax=ax, color="pink")
     plt.title("NHS Hospitals")
     plt.axis("off")
-    plt.show()
     plt.savefig("nhs_hospitals.png")
+    plt.show()
 
 
 if __name__ == "__main__":

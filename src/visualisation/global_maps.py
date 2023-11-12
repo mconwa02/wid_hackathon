@@ -26,9 +26,9 @@ def plot_geopandas_map(gdf, title):
     gdf.plot(ax=ax, color="grey")
     plt.title(title)
     plt.axis("off")
-    plt.show()
     name = title.lower().strip().replace(" ", "_")
     plt.savefig(f"{name}.png")
+    plt.show()
 
 
 if __name__ == "__main__":
