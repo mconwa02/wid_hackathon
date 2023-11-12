@@ -328,6 +328,8 @@ Kingdom to display data and visualise it.</p>
 <ol>
 <li><strong>Downloading Shapefile Data:</strong></li>
 </ol>
+<p>Shapefile is a geospatial vector data format for geographic information 
+system (GIS) software. It is developed and regulated by Esri.</p>
 <p>You can download shapefile data for the UK from various sources. A 
 commonly used source is Natural Earth, which provides free vector and 
 raster map data. Here's a step-by-step guide:</p>
@@ -357,6 +359,8 @@ plt.title('Map of the UK')
 plt.axis('off')  # Turn off the axis
 plt.show()
 </code></pre>
+<p><img alt="map_of_the_uk.png" src="../img/map_of_the_uk.png" /></p>
+<p><img alt="map_of_the_world.png" src="../img/map_of_the_world.png" /></p>
 <p>Replace <code>'path_to_your_downloaded_shapefile.shp'</code> with the actual file 
 path where you've saved the downloaded shapefile. This code reads the 
 shapefile using GeoPandas and plots it using Matplotlib.</p>
@@ -367,11 +371,9 @@ of the UK using the shapefile's geographical boundaries.</p>
 adjusting colors, adding labels, or customizing the plot appearance.</p>
 <p>The Shapefile format is much more compact than GeoJSON, and is supported 
 by GeoPandas, (Plotly requires GeoJSON, which I created from the Shapefiles later.)</p>
-<p>UK portal of sharp files
-https://geoportal.statistics.gov.uk/</p>
-<p>Download Options of Wards (May 2023) Boundaries UK BFC
-https://geoportal.statistics.gov.uk/datasets/ons::wards-may-2023-boundaries-uk-bfc/explore</p>
-<p>https://www.data.gov.uk/dataset/32bc926b-e438-4e12-b7b5-b0a720c223e2/census-merged-wards-december-2011-full-extent-boundaries-in-england-and-wales</p>
+<p><a href="https://geoportal.statistics.gov.uk/">UK portal of sharp files</a></p>
+<p>Download Options of Wards (May 2023) <a href="https://geoportal.statistics.gov.uk/datasets/ons::wards-may-2023-boundaries-uk-bfc/explore">Boundaries UK BFC</a></p>
+<p><a href="https://medium.com/@patohara60/interactive-mapping-in-python-with-uk-census-data-6e571c60ff4">Interactive Mapping in Python with UK Census Data</a></p>
 
 
 
