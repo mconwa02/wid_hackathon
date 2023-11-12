@@ -1,6 +1,6 @@
 site_name: WiD Hackathon
 nav:
-- Home: about.md
+- Home: index.md
 - Kaggle Data: kaggle_data.md
 - NHS: nhs_public_data.md
 - Geopandas: geopandas.md
