@@ -7,7 +7,7 @@ thinking and problem-solving while addressing crucial issues in women's health.
 
 In partnership with Women in Data, UK, non-profit
 
-![wid-logo.png](img%2Fwid-logo.png)
+![wid-logo.png](img/wid-logo.png)
 
 **Hackathon Title:** EmpowerHer: Women's Health Data Hack
 
