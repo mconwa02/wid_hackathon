@@ -1,9 +1,6 @@
-# wid_hackathon
-Women in Data Hackathon
+# Women in Data Hackathon
 
 ==============================
-
-Women in Data Hackathon
 
 Project Organization
 ------------
