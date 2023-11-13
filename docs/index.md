@@ -5,9 +5,10 @@ and NHS data. This hackathon is to attract individuals passionate about data
 science, healthcare, and social impact. It aims to encourage creative 
 thinking and problem-solving while addressing crucial issues in women's health.
 
-In partnership with Women in Data, UK, non-profit
+In partnership with Women in Data, UK, non-profit and Impactic Volenteers
 
-![wid-logo.png](img/wid-logo.png)
+![impact volenteers](img/Impactic.JPG)
+![wid-logo.png](img/wid-logo.png) 
 
 **Hackathon Title:** EmpowerHer: Women's Health Data Hack
 
