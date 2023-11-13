@@ -4,6 +4,7 @@ nav:
 - Kaggle Data: kaggle_data.md
 - NHS: nhs_public_data.md
 - Geopandas: geopandas.md
+- API Instructions: api_instructions.md
 
 theme:
   name: material
