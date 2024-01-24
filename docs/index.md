@@ -55,33 +55,33 @@ Hacking Period
   - 10am to 4.30pm 
   - Lunchtime checkpoint for help and support 
 
-** Safety Data Requirements **
+**Safety Data Requirements**
 
 Using the safety survey data, propose exploring the following six categories:
 
 1. **Public Crimes Data:**
-   - Crimes reported by the police or the MET, broken down by region.
+   Crimes reported by the police or the MET, broken down by region.
 
 2. **Public Services Data:**
-   - Data related to travel services and public amenities like hospitals and police stations, broken down by region.
+   Data related to travel services and public amenities like hospitals and police stations, broken down by region.
 
 3. **Tribunal Data on Workplace Grievances:**
-   - Data on public court cases related to workplace grievances.
+   Data on public court cases related to workplace grievances.
 
 4. **Public Court Cases on Other Crimes:**
-   - Data on public court cases related to crimes other than workplace grievances.
+   Data on public court cases related to crimes other than workplace grievances.
 
 5. **Mumsnet Chat Data:**
-   - Mumsnet is a popular online platform based in the UK that serves as a 
+   Mumsnet is a popular online platform based in the UK that serves as a 
      community and discussion forum for parents. 
 
 6. **Socio-demographic and Household Information:**
-   - Information on socio-demographics and households, broken down by region.
+   Information on socio-demographics and households, broken down by region.
 
 More Metrics data at postcode level and The Ark's data at household level 
 could complement the raw data we have. They can provide aggregated datasets at a higher geographic level.
 
-**Key Information from More Metrics **
+**Key Information from More Metrics**
 - More Metrics Documentation: [More Metrics Documentation](https://www.moremetrics.co.uk/documentation-hub)
 - The Ark's Household Data: [The Ark Household Data](https://www.ark-data.co.uk/the-uk-household-file/)
 - Free Samples on Snowflake:
