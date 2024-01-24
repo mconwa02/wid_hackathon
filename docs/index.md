@@ -1,41 +1,34 @@
 # WiD Hackathon
 
-Working website to code and solve problem for women's health using kaggle 
-and NHS data. This hackathon is to attract individuals passionate about data 
-science, healthcare, and social impact. It aims to encourage creative 
-thinking and problem-solving while addressing crucial issues in women's health.
+Working website to code and solve problem for women's safety using data. 
+The data will be hosted in the Snowflake environment. The data will be 
+anonymous and will be used solely for the 
+purpose of the hack.
 
-In partnership with Women in Data, UK, non-profit and Impactic Volenteers
+In partnership with Women in Data, UK, non-profit and Impactic Volunteers
 
 ![impact volenteers](img/Impactic.JPG)
 ![wid-logo.png](img/wid-logo.png) 
 
-**Hackathon Title:** EmpowerHer: Women's Health Data Hack
-
-**Objective:** The objective of this hackathon is to harness the power of open-source tools and data from UK sources such as the National Health Service (NHS) and Kaggle to address critical challenges and opportunities in women's health. Participants are encouraged to explore, analyze, and innovate using available datasets to propose solutions, insights, or applications that advance the understanding and support of women's health.
+**Hackathon Title:** EmpowerHer: WiD - Women's Safety Hackathon
 
 **Date and Time:**
 
-**Start Date:** 9am Wednesday, March 6th 2024 
+**Start Date:** 10am Thursday, March 7th 2024 
 
-**End Date:** 5pm Wednesday, March 6th 2024 
+**End Date:** 4.30pm Thursday, March 7th 2024 
 
-**Duration:** 8 hours
-
-**Results:** Thursday, March 7th 2024
+**Duration:** 6.5 hours
 
 **Venue:**
 
 - In-person event
 - InterContinental London - the O2
 
-**Theme:**
-- Solving Women's health with data and tech
-
 **Registration:**
 
 - Sign up through women in data website
-- 3,000 people for flagship conference, 300 teams max
+- 3,000 people for flagship conference, 400 people at the hackathon
 
 5 data roles for people to select when signing up to conference 
 
@@ -49,65 +42,67 @@ In partnership with Women in Data, UK, non-profit and Impactic Volenteers
 
 Registration 8am
 Opening Ceremony 9am 
+Hackathon Start 10am 
+Hackathon Finish 4:30am 
+
 Team Formation
 
-  - Teams of 10 people
+  - Teams of up 10 people max
   - 1 DPO, 1 DSME, 3 DA, 2 DE, 3 DS
 
 Hacking Period
 
-  - 9am to 5pm 
+  - 10am to 4.30pm 
   - Lunchtime checkpoint for help and support 
 
-Project Submission Deadline 5pm
-Judging Period
+** Safety Data Requirements **
 
-  - Top 6 finalist presentations 5pm to 6:30pm
-  - 
-Keynote Speech and Prize Distribution on the day of flagship conference 
+Using the safety survey data, propose exploring the following six categories:
 
-Need to decide on what public data to use, examples from kaggle 
+1. **Public Crimes Data:**
+   - Crimes reported by the police or the MET, broken down by region.
 
-- Women Health Care
-- Babies Birth Weight
-- Breast Cancer 
-- Fitbit Tracker
-- Cervical Cancer UK
-- Worldwide cancer data
-- UK Hospital Data
+2. **Public Services Data:**
+   - Data related to travel services and public amenities like hospitals and police stations, broken down by region.
 
-**Problem Statement:** Across various demographics and health sectors, 
-women's health remains an area of complex and multifaceted needs. 
-Challenges in reproductive health, maternal care, mental health, chronic 
-conditions, and overall well-being persist. The aim is to leverage 
-available UK data sources to:
+3. **Tribunal Data on Workplace Grievances:**
+   - Data on public court cases related to workplace grievances.
 
-1. **Identify Disparities:** Explore and address disparities in access to 
-   healthcare, treatment outcomes, or prevalence of certain conditions 
-   among different demographics of women.
-2. **Enhance Preventive Care:** Develop strategies or tools that promote 
-   preventive healthcare measures for women, considering specific age 
-   groups, lifestyles, or health concerns.
-3. **Mental Health Support:** Explore and devise solutions that support 
-   mental health needs unique to women, considering factors like 
-   postpartum depression, stress, anxiety, or other mental health challenges.
-4. **Health Education and Awareness:** Create platforms, apps, or tools 
-   that spread awareness and educate women about various health issues, 
-   ensuring accessibility and understanding of healthcare information.
+4. **Public Court Cases on Other Crimes:**
+   - Data on public court cases related to crimes other than workplace grievances.
+
+5. **Mumsnet Chat Data:**
+   - Mumsnet is a popular online platform based in the UK that serves as a 
+     community and discussion forum for parents. 
+
+6. **Socio-demographic and Household Information:**
+   - Information on socio-demographics and households, broken down by region.
+
+More Metrics data at postcode level and The Ark's data at household level 
+could complement the raw data we have. They can provide aggregated datasets at a higher geographic level.
+
+**Key Information from More Metrics **
+- More Metrics Documentation: [More Metrics Documentation](https://www.moremetrics.co.uk/documentation-hub)
+- The Ark's Household Data: [The Ark Household Data](https://www.ark-data.co.uk/the-uk-household-file/)
+- Free Samples on Snowflake:
+  - More Metrics: [More Metrics on Snowflake](https://app.snowflake.com/marketplace/providers/GZ1MOZCFPI/More%20Metrics)
+  - The Ark: [The Ark on Snowflake](https://app.snowflake.com/marketplace/providers/GZSVZ8TNPJ/The%20Ark)
+
+The demographic information includes household income, individual income differentiated by sex and age, self-reported health, disability, smoking, obesity, attitudinal indices, and the Index of Multiple Deprivation.
 
 **Tasks:**
 Participants are encouraged to:
 
-1. **Explore Datasets:** Utilize datasets from NHS and Kaggle that pertain 
-   to women's health. This could include information on demographics, 
+1. **Explore Datasets:** Utilize datasets that pertain 
+   to women's safety. This could include information on demographics, 
    medical records, disease prevalence, treatment outcomes, etc.
 2. **Analyze and Visualize:** Analyze the data to identify trends, 
-   patterns, and potential areas for improvement in women's health. 
+   patterns, and potential areas for improvement in women's safety. 
    Visualize key insights to better understand the data.
 3. **Develop Solutions:** Propose innovative solutions, which could be in 
    the form of applications, predictive models, educational tools, or any 
    other technological advancement that addresses specific challenges in 
-   women's health.
+   women's safety.
 4. **Pitch and Demonstrate:** Present the findings and developed solutions 
    to a panel of judges, explaining the rationale, methodology, and 
    potential impact of the proposed solution.
@@ -119,14 +114,9 @@ Participants are encouraged to:
  visualization tools (Matplotlib, Seaborn, GeoPandas), and any other 
  open-source resources available.
 
-**Judging Criteria:**
-- Innovation and Creativity
-- Impact on Women's Health
-- Technical Skill and Analysis
-- Presentation and Clarity
-
-
-**Note:** This hackathon aims to create a collaborative environment where 
-participants can learn, innovate, and contribute to a meaningful cause in 
-women's health.
+**Note:** This hackathon aims to create a collaborative environment 
+where participants can learn, innovate, and contribute to a meaningful 
+cause in women's safety. The aim of the hackathon is not to be a 
+competition but a supportive and caring environment working on sensitive data 
+that can be triggering.
 
