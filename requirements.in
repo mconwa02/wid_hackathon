@@ -1,6 +1,10 @@
 black==23.7.0
 flake8==6.1.0
+geopandas
+geodatasets
 isort==5.12.0
+ipykernel
+matplotlib
 mkdocs==1.5.2
 mkdocs-material
 mypy==1.5.1
@@ -10,3 +14,4 @@ pre-commit==3.3.3
 pytest==7.4.0
 scikit-learn==1.3.0
 statsmodels==0.14.0
+urllib3>=2.0.7

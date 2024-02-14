@@ -1,9 +1,12 @@
 site_name: WiD Hackathon
 nav:
-- Home: index.md
-- About: about.md
+- Women's Safety: index.md
+- Health Data: health_data.md
+- Kaggle Data: kaggle_data.md
+- NHS: nhs_public_data.md
 - Geopandas: geopandas.md
-- Data: kaggle_data.md
+- API Instructions: api_instructions.md
+
 theme:
   name: material
   logo: img/wid-logo.png
